@@ -1,16 +1,3 @@
-/**
- * Quad-line CMS standard template
- * - 
- * Quad-line all rights reserved.
- **/
-
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -186,7 +173,7 @@ table {
 /* --- Module area style --- */
 .module-box {
     width:200px;
-    height:auto;
+    height:250px;
     background-color:#115a72;
     border-bottom:1px solid #13485b;
     margin-bottom:10px;
@@ -205,54 +192,4 @@ table {
 
 .module-body {
     padding:10px;
-}
-
-/* --- Slider style */
-#slider-box {
-    width:auto;
-    height:26px;
-    left:50%;
-    bottom:6px;
-    position:absolute;
-}
-
-#slider-box ul {
-    width:auto;
-    height:26px;
-    background:url(./images/slider_bg.png) repeat-x left top;
-    float:left;
-}
-
-#slider-box ul li {
-    background:url(./images/slider_passive.png) no-repeat left top;
-    width:10px;
-    height:10px;
-    margin-top:8px;
-    float:left;
-    cursor:pointer;
-}
-
-#slider-box ul li.spacer {
-    background-image:none;
-    width:12px;
-    height:26px;
-    cursor:default;
-}
-
-#slider-box ul li.active {
-    background:url(./images/slider_active.png) no-repeat left top;
-}
-
-#slider-box #slider-left {
-    background:url(./images/slider_left.png) no-repeat top left;
-    width:10px;
-    height:26px;
-    float:left;
-}
-
-#slider-box #slider-right {
-    background:url(./images/slider_right.png) no-repeat top left;
-    width:10px;
-    height:26px;
-    float:left;
 }

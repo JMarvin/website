@@ -2,63 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Qiuad-line :: CMS</title>
-    <meta name="description" content="Quad-line standard CMS template" />
-	<meta name="keywords" content="quad-line, quad, line, standard, template, cms, content management system, php, html, css, code, modules, quad-line.com" />
+    <title>Marvins Website</title>
+    <meta name="description" content="Marvin Maetzler CMS" />
+	<meta name="keywords" content="marvin, maetzler, mätzler, homepage" />
 	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-        <script type="text/javascript" src="./js/jquery.js"></script>
-        <script type="text/javascript"><!--//
-            $(document).ready(function () {
-                /**
-                * Fix for slider box position.
-                **/
-                var SliderMargin = $("#slider-box").width() / 2;
-                
-                $("#slider-box").css("margin-left", "-" + SliderMargin + "px");
- 
-                delete SliderMargin;
-                
-                
-                /**
-                 * Hover effect for slider box
-                 **/
-                
-                var SliderPassive = "./images/slider_passive.png";
-                var SliderActive = "./images/slider_active.png";
-                
-                $("#slider-box").find("ul").find("li").mouseover(function () {
-                    if(!($(this).hasClass("active")) && !($(this).hasClass("spacer"))) {
-                        $(this).css("background", "url(" + SliderActive + ") no-repeat left top");
-                        console.log("test");
-                    }
-                }).mouseout(function () {
-                    if(!($(this).hasClass("active")) && !($(this).hasClass("spacer"))) {
-                        $(this).css("background", "url(" + SliderPassive + ") no-repeat left top");
-                    }
-                });
-                
-                delete SliderPassive;
-                delete SliderActive;
-            });
-        //--></script>
     </head>
     <body>
         <div id="menu-wrapper">
             <ul>
                 <li class="menu-link">
                     <a href="#Home">Home</a>
-                </li>
-                <li class="menu-spacer"></li>
-                <li class="menu-link">
-                    <a href="#Home">About us</a>
-                </li>
-                <li class="menu-spacer"></li>
-                <li class="menu-link">
-                    <a href="#Home">Downloads</a>
-                </li>
-                <li class="menu-spacer"></li>
-                <li class="menu-link">
-                    <a href="#Home">Forums</a>
                 </li>
                 <li class="menu-spacer"></li>
             </ul>
@@ -102,15 +55,11 @@
                         <div class="module-header">Header #3</div>
                         <div class="module-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus tortor sit amet orci consectetur eu mollis nulla auctor. Proin in dolor vitae erat sodales convallis ac sed mauris. Aenean consequat diam vel mauris dictum sit amet consequat elit cursus</div>
                     </div>
-                    
-                    <div class="module-box">
-                        <div class="module-header">Header #4</div>
-                        <div class="module-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus tortor sit amet orci consectetur eu mollis nulla auctor. Proin in dolor vitae erat sodales convallis ac sed mauris. Aenean consequat diam vel mauris dictum sit amet consequat elit cursus</div>
-                    </div>
                 </div>
                 
                 <div class="clear"></div>
             </div>
+            
             
         </div>
         
